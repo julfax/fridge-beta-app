@@ -71,7 +71,7 @@ def detectar_objetos(ruta):
     results = modelo.predict(
         source=ruta,
         conf=0.30,
-        imagsz=320
+        imgsz=320
         verbose=False
     )
 
