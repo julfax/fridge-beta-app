@@ -58,7 +58,7 @@ def get_model():
     global model
 
     if model is None:
-        model = YOLO("yoloe-26s-seg.pt")
+        model = YOLO("yoloe-26n-seg.pt")
         model.set_classes(CLASSES)
 
     return model
